@@ -1,4 +1,5 @@
 import React, { Fragment, Component } from 'react';
+import Navbar from './components/layout/NavBar'
 import './App.css';
 
 class App extends Component {
@@ -8,7 +9,7 @@ class App extends Component {
     const name = "Victória Vilas Boas";
     return (
       <Fragment>
-        <h1>Hello {name}</h1>
+        <Navbar/>
       </Fragment>
     );
   }
